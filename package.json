@@ -1,0 +1,53 @@
+{
+  "name": "eslint-plugin-arrow-function-brace",
+  "version": "0.0.3",
+  "description": "ESLint plugin that checks if the arrow function can remove the brace.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+	},
+	"files": [
+    "README.md",
+    "package.json",
+    "lib"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "arrow function",
+    "brace"
+  ],
+  "author": "Wataruun",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/eslint": "^7.2.7",
+    "@types/node": "^14.14.35",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false
+      }
+    },
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "(src/__tests__/.*\\.test)\\.ts$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "\\.d\\.ts$",
+      "lib/.*"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "json"
+    ]
+  }
+}
