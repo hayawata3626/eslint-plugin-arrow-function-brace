@@ -19,7 +19,7 @@ Touch `.eslintrc`
     "arrow-function-brace"
   ],
   "rules": {
-		...,
+    ...,
     "arrow-function-brace/arrow-function-brace": 1
   }
 }

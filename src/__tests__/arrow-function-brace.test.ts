@@ -13,8 +13,8 @@ tester.run("arrow-function-brace", rule, {
   invalid: [
     {
       code: `const getName = () => {
-				return "test";
-			}`,
+        return "test";
+      }`,
       errors: [{ message: "can remove the brace from the arrow function." }],
     },
   ],
