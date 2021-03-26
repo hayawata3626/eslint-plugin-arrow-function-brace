@@ -9,6 +9,12 @@ tester.run("arrow-function-brace", rule, {
     {
       code: `const getName = () => "test"`,
     },
+    {
+      code: `const isAdult = (age) => {
+        const adultAge = 20;
+        return age >= adultAge
+      }`,
+    },
   ],
   invalid: [
     {
@@ -16,6 +22,6 @@ tester.run("arrow-function-brace", rule, {
         return "test";
       }`,
       errors: [{ message: "can remove the brace from the arrow function." }],
-    },
+    }
   ],
 });
