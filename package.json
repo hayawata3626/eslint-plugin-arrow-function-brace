@@ -1,6 +1,5 @@
 {
   "name": "eslint-plugin-arrow-function-brace",
-  "version": "0.0.3",
   "description": "ESLint plugin that checks if the arrow function can remove the brace.",
   "main": "lib/index.js",
   "scripts": {
@@ -32,6 +31,9 @@
     "semantic-release": "^17.4.2",
     "ts-jest": "^26.5.4",
     "typescript": "^4.2.3"
+  },
+ "peerDependencies": {
+    "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
   },
   "jest": {
     "globals": {
