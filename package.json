@@ -76,5 +76,6 @@
     "branches": [
       "main"
     ]
-  }
+  },
+  "repository":"git@github.com:hayawata3626/eslint-plugin-arrow-function-brace.git"
 }
