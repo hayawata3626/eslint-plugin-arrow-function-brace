@@ -2,7 +2,7 @@ name: build-tests
 on: push
 
 jobs:
-  release:
+  test:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
